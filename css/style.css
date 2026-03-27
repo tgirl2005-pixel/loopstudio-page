@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Grey-200: hsl(0, 0%, 85%);
+    --font-family: "Josefin Sans", sans-serif;
+    --FF: "Alata", sans-serif;
+}
+
+section {
+    background: url(../img/desktop/image-hero.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    padding: 60px 60px 0 60px;
+}
+
+.actions  {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.actions li a{
+    display: block;
+    padding: 10px 15px;
+}
+
+.actions a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
+
+.ht-container{
+    padding: 60px 0 0 60px;
+}
+
+.hero-text {
+    color: var(--White);
+    width: 753px;
+    height: 358px;
+    border: 2px solid white;
+    line-height: 1.3;
+    font-family: var(--FF);
+    font-size: 85px;
+    padding: 10px 0 0 56px;
+    
+}
